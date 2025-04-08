@@ -1,0 +1,72 @@
+/* style.css */
+body {
+  font-family:'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #479dda, #07d6e1);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.app-container {
+  background: #49cced;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 30px 30px 10px rgba(14, 5, 5, 0.2);
+  width: 700px;
+  height: 800px;
+  text-align: center;
+}
+
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+ 
+
+}
+
+#cityInput {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#searchBtn {
+  padding: 10px;
+  border: none;
+  background: #11dce3;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow:5px 5px 10px #e6e5e8;
+}
+
+.weather-display {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f0f0f0;
+}
+
+.hidden {
+  display: none;
+}
+
+ul#recentList {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#recentList li {
+  background: #e0e0e0;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
